@@ -38,7 +38,7 @@ public class BSTConstruction {
 				}
 			} else if (value > this.value) {
 				if (right == null) {
-					return true;
+					return false;
 				} else {
 					return right.contains(value);
 				}
