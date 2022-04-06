@@ -68,8 +68,8 @@ public class BSTConstruction {
 				} else if (parent == null) {
 					if (left != null) {
 						this.value = left.value;
-						left = left.left;
 						right = left.right;
+						left = left.left;
 					} else if (right != null) {
 						this.value = right.value;
 						left = right.left;
