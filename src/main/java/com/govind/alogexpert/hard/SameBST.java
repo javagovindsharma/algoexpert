@@ -1,8 +1,10 @@
 package com.govind.alogexpert.hard;
 
+import static org.junit.Assert.assertTrue;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 
 public class SameBST {
 	// solution 2
@@ -84,7 +86,7 @@ public class SameBST {
 	public static void main(String[] args) {
 		List<Integer> arrayOne = new ArrayList<Integer>(Arrays.asList(10, 15, 8, 12, 94, 81, 5, 2, 11));
 		List<Integer> arrayTwo = new ArrayList<Integer>(Arrays.asList(10, 8, 5, 15, 2, 12, 11, 94, 81));
-		// JUnit4.assertTrue(SameBST.sameBsts(arrayOne, arrayTwo) == true);
+		assertTrue (SameBST.sameBsts(arrayOne, arrayTwo));
 	}
 
 }
