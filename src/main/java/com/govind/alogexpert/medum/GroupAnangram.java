@@ -24,8 +24,9 @@ public class GroupAnangram {
 				}
 				
 			}
-		    return new ArrayList(anagrams.values());
+		    return new ArrayList<List<String>>(anagrams.values());
 		  }
+	@SuppressWarnings("unlikely-arg-type")
 	public static List<List<String>> groupAnagrams(List<String> words) {
 		if (words.size() == 0)
 			return new ArrayList<List<String>>();
