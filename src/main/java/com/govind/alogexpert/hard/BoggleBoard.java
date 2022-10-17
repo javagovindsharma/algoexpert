@@ -28,6 +28,7 @@ public class BoggleBoard {
 		return finalWordsArray;
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	private static void explore(int i, int j, char[][] board, TrieNode trieNode, boolean[][] visited,
 			Set<String> finalWords) {
 		if (visited[i][j]) {

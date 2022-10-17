@@ -74,7 +74,7 @@ public class NextGreaterElement {
 		System.out.println("hi");
 		NextGreaterElement obj = new NextGreaterElement();
 		int[] input = new int[] { 6, 4, 5, 7, 2, 1, 3 };// { 2, 5, -3, -4, 6, 7, 2 };
-		int[] expected = new int[] { 1, 2, 3, 4, -1 };// { 5, 6, 6, 6, 7, -1, 5 };
+	//	int[] expected = new int[] { 1, 2, 3, 4, -1 };// { 5, 6, 6, 6, 7, -1, 5 };
 		int[] actual = obj.nextGreaterElement(input);
 		System.out.println(Arrays.toString(actual));
 		// obj.testFindMax(expected,actual);

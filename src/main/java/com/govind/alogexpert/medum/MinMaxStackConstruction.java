@@ -25,6 +25,7 @@ public class MinMaxStackConstruction {
 			newMinMax.put("min", number);
 			newMinMax.put("max", number);
 			if (minMaxStack.size() > 0) {
+				@SuppressWarnings("unlikely-arg-type")
 				Map<String, Integer> lastMinMax = new HashMap<String, Integer>(newMinMax.get(minMaxStack.size() - 1));
 				newMinMax.replace("min", Math.min(lastMinMax.get("min"), number));
 				newMinMax.replace("max", Math.max(lastMinMax.get("max"), number));

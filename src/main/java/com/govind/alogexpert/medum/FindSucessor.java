@@ -77,9 +77,9 @@ public class FindSucessor {
 		root.left.right.parent = root.left;
 		root.left.left.left = new FindSucessor.BinaryTree(6);
 		root.left.left.left.parent = root.left.left;
-		FindSucessor.BinaryTree node = root.left.right;
-		FindSucessor.BinaryTree expected = root;
-		FindSucessor.BinaryTree output = new FindSucessor().findSuccessor(root, node);
+	//	FindSucessor.BinaryTree node = root.left.right;
+	//	FindSucessor.BinaryTree expected = root;
+	//	FindSucessor.BinaryTree output = new FindSucessor().findSuccessor(root, node);
 	}
 
 }

@@ -1,7 +1,6 @@
 package com.govind.alogexpert.easy;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class PhotosClass {

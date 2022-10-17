@@ -159,6 +159,7 @@ public class MultiStringSearch {
 		return true;
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	public static void main(String[] args) {
 		boolean[] expected = { true, false, true, true, false, true, false };
 		List<Boolean> output = MultiStringSearch.multiStringSearch("this is a big string",

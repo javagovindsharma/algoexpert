@@ -54,7 +54,7 @@ public class MinimumCharactersForWords {
 	
 	public static void main(String[] args) {
 		 String[] words = new String[] {"this", "that", "did", "deed", "them!", "a"};
-		    char[] expected = new char[] {'t', 't', 'h', 'i', 's', 'a', 'd', 'd', 'e', 'e', 'm', '!'};
+		  //  char[] expected = new char[] {'t', 't', 'h', 'i', 's', 'a', 'd', 'd', 'e', 'e', 'm', '!'};
 		    char[] actual = new MinimumCharactersForWords().minimumCharactersForWords(words);
             System.out.println(Arrays.toString(actual));
 	}

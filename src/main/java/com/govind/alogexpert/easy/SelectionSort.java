@@ -2,8 +2,6 @@ package com.govind.alogexpert.easy;
 
 import java.util.Arrays;
 
-import com.govind.alogexpert.medum.SmallestDifference;
-
 public class SelectionSort {
 	public static int[] selectionSort(int[] array) {
 		int startIdx=0;

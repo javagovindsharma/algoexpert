@@ -48,8 +48,8 @@ public class BalanacedHeightTree {
 		    root.right.right = new BalanacedHeightTree.BinaryTree(6);
 		    root.left.right.left = new BalanacedHeightTree.BinaryTree(7);
 		    root.left.right.right = new BalanacedHeightTree.BinaryTree(8);
-		    boolean expected = true;
-		    Object actual = new BalanacedHeightTree().heightBalancedBinaryTree(root);
+		    @SuppressWarnings("unused")
+			boolean expected = true;
 
 	}
 

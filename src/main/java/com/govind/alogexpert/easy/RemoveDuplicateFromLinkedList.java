@@ -38,7 +38,7 @@ public class RemoveDuplicateFromLinkedList {
 			linkedList = linkedList.next;
 		}
 		Iterator<Integer> itr = set.iterator();
-		LinkedList list1 = new LinkedList(0);
+	//	LinkedList list1 = new LinkedList(0);
 		while (itr.hasNext()) {
 			int vt=itr.next();
 			LinkedList list = new LinkedList(vt);
@@ -55,8 +55,8 @@ public class RemoveDuplicateFromLinkedList {
 
 		RemoveDuplicateFromLinkedList.LinkedList input = new RemoveDuplicateFromLinkedList.LinkedList(1);
 		addMany(input, new ArrayList<Integer>(Arrays.asList(1, 3, 4, 4, 4, 5, 6, 6)));
-		LinkedList list=removeDuplicatesFromLinkedList(input);
-		List<Integer> li= getNodesInArray(list);
+	//	LinkedList list=removeDuplicatesFromLinkedList(input);
+	//	List<Integer> li= getNodesInArray(list);
 		
 	}
 	

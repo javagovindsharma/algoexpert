@@ -17,7 +17,7 @@ public class PalindromeCheck {
 	}
 
 	public static boolean isPalindrome2(String str) {
-		boolean flag = false;
+		//boolean flag = false;
 		StringBuilder input = new StringBuilder();
 		input.append(str);
 		input.reverse();

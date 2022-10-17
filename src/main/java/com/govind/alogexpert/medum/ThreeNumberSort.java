@@ -64,6 +64,7 @@ public class ThreeNumberSort {
 		 return array;
 	}
 	
+	@SuppressWarnings("unused")
 	public int[] threeNumberSort(int[] array, int[] order) {
 		int firstValue=order[0];
 		int thirdValue=order[2];

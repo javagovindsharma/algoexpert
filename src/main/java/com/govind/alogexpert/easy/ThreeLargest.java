@@ -105,7 +105,7 @@ public class ThreeLargest {
 
 	public static void main(String[] args) {
 		int arr[] = { 55, 7, 8 };// { 141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7 };
-		int n = arr.length;
+	//	int n = arr.length;
 		System.out.println(Arrays.toString(findThreeLargestNumbers(arr)));
 	}
 }

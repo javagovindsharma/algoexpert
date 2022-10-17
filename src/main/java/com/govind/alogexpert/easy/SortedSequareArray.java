@@ -2,8 +2,6 @@ package com.govind.alogexpert.easy;
 
 import java.util.Arrays;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 public class SortedSequareArray {
 
 	public static int[] sortedSquaredArraySolution1(int[] array,int  n) {

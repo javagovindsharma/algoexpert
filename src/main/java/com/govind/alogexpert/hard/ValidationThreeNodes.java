@@ -24,18 +24,7 @@ public class ValidationThreeNodes {
 		return false;
 	}
 
-//solution 1
-	private boolean isDescendant1(BST node, BST target) {
-		if (node == null) {
-			return false;
-		}
-		if (node == target) {
-			return true;
-		}
-		return (target.value < node.value) ? isDescendant(node.left, target) : isDescendant(node.right, target);
-	}
-
-	// solution 2
+// solution 2
 	private boolean isDescendant(BST node, BST target) {
 		while (node != null && node != target) {
 			 node= (target.value < node.value) ?

@@ -1,7 +1,6 @@
 package com.govind.alogexpert.medum;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class TreeNumberSum {

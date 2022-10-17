@@ -17,7 +17,7 @@ public class NumbersInPI {
 		}
 		Map<Integer, Integer> cache = new HashMap<Integer, Integer>();
 		for (int i = pi.length() - 1; i >= 0; i--) {
-			int minSpaces = getMinSpaces(pi, numbersTable, cache, i);
+		//	int minSpaces = getMinSpaces(pi, numbersTable, cache, i);
 		}
 		return cache.get(0)==Integer.MAX_VALUE?-1:cache.get(0);
 	}
